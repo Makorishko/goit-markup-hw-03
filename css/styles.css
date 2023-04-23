@@ -1,0 +1,234 @@
+:root {
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
+  --white: #ffffff;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+  --green: #31d0aa;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+.header {
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Navigation */
+.nav {
+}
+.logo {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.17;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--iris);
+  text-decoration: none;
+}
+.logo-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--navy-blue);
+}
+
+.nav .list .link {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+  text-decoration: none;
+}
+.nav .link:focus {
+  color: #404bbf;
+}
+.nav .link:hover {
+  color: #404bbf;
+}
+/* Contacts */
+.address {
+  font-style: normal;
+}
+.address .list {
+  list-style: none;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts-item {
+}
+.address .link {
+  font-size: 16px;
+  color: var(--slate);
+  font-style: normal;
+}
+.address .link:focus {
+  color: #404bbf;
+}
+.address .link:hover {
+  color: #404bbf;
+}
+/* First section */
+.section {
+}
+.section-business {
+  background-color: var(--navy-blue);
+}
+.title {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+}
+.btn:hover {
+  background-color: #404bbf;
+}
+.btn:focus {
+  background-color: #404bbf;
+}
+/* Second section */
+.section-features {
+}
+.section-features .list {
+}
+
+.features {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* Third section */
+.section-activity {
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.list-team-item {
+  background-color: #ffffff;
+}
+.person {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.specialization {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.section .list {
+  background-color: #ffffff;
+}
+/* Footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.text {
+  color: var(--cloud);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.logo-footer {
+  color: var(--cloud);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-studio-footer {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--cloud);
+}
+
+/* Portfolio */
+.btn-filter {
+  background-color: var(--cornflower);
+  color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+}
+.btn-filter:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.btn-filter:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio {
+}
+.portfolio-list {
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
