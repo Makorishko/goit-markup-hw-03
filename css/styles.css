@@ -20,6 +20,10 @@ body {
 }
 
 .header {
+  display:flex;
+  justify-content: space-between;
+  padding: 24px 156px;
+  align-items: center;
 }
 
 .link {
@@ -27,9 +31,19 @@ body {
 }
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+
+}
+.section .list {
+  background-color: #ffffff;
 }
 /* Navigation */
 .nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-size: 18px;
@@ -40,6 +54,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--iris);
   text-decoration: none;
+  margin-right: 76px;
 }
 .logo-studio {
   font-weight: 800;
@@ -90,7 +105,13 @@ body {
 }
 .section-business {
   background-color: var(--navy-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 188px 0px;
 }
+
 .title {
   color: var(--white);
   font-size: 56px;
@@ -98,6 +119,8 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0px;
 }
 
 .btn {
@@ -109,6 +132,7 @@ body {
   cursor: pointer;
   letter-spacing: 0.04em;
   font-family: 'Roboto', sans-serif;
+  margin-top: 48px;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -118,9 +142,15 @@ body {
 }
 /* Second section */
 .section-features {
+  padding: 120px 156px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-features .list {
+  gap: 24px;
 }
+
 
 .features {
   font-weight: 500;
@@ -134,10 +164,21 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  width: 264px;
 }
 /* Third section */
 .section-activity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 156px;
 }
+.section-activity .list{
+  display: flex;
+  gap: 24px;
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 36px;
@@ -146,12 +187,29 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  margin: 0px;
+  
+}
+.list-image-item{
+  padding-top: 72px;
 }
 .section-team {
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 156px;
+  gap: 72px;
+}
+.section-team .list{
+  gap:24px;
   background-color: #f4f4fd;
 }
 .list-team-item {
   background-color: #ffffff;
+
+
 }
 .person {
   font-weight: 500;
@@ -159,16 +217,20 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .specialization {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.section .list {
-  background-color: #ffffff;
-}
+
 /* Footer */
 .footer {
   background-color: var(--navy-blue);
