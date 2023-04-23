@@ -234,12 +234,16 @@ body {
 /* Footer */
 .footer {
   background-color: var(--navy-blue);
+  padding: 100px 1020px 100px 156px;
+  
 }
 
 .text {
   color: var(--cloud);
   font-size: 16px;
   line-height: 1.5;
+  width: 264px;
+
 }
 .logo-footer {
   color: var(--cloud);
@@ -248,6 +252,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  display: flex;
 }
 .logo-studio-footer {
   font-weight: 800;
