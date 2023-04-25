@@ -18,6 +18,9 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+img {
+  display: block;
+}
 .container {
   width: 1158px;
   display: flex;
@@ -262,13 +265,13 @@ body {
 /* Footer */
 .footer {
   background-color: var(--navy-blue);
-
+  padding: 100px 0;
 }
 .footer .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 100px 0;
+  
 }
 .text {
   color: var(--cloud);
@@ -290,7 +293,7 @@ body {
   line-height: 1.17;
   color: var(--cloud);
 }
-.link .footer {
+.footer .link {
   display: inline-block;
   margin-bottom: 16px;
 }
