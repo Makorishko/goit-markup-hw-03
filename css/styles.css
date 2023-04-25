@@ -294,8 +294,9 @@ img {
   color: var(--cloud);
 }
 .logo {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
+
 }
 /* Portfolio */
 .section-portfolio .container {
