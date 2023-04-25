@@ -294,8 +294,8 @@ img {
   color: var(--cloud);
 }
 .footer .link {
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 /* Portfolio */
 .section-portfolio .container {
@@ -360,6 +360,7 @@ img {
   color: var(--navy-blue);
   display: flex;
   align-items: flex-start;
+  margin-bottom: 8px;
 }
 .category {
   font-size: 16px;
