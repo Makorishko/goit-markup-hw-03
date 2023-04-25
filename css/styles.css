@@ -28,18 +28,18 @@ body {
 .section {
   padding: 120px 0px;
   display: flex;
-  justify-content: center;
+
 }
 
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  
   padding: 24px 156px 24px 156px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
-  justify-content: space-between;
+  
 }
 
 .link {
@@ -86,13 +86,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--grey);
   text-decoration: none;
+  padding: 24px 0;
 }
 .nav .link:focus {
   color: #404bbf;
 }
 .nav .link:hover {
   color: #404bbf;
+  
 }
+
+  
+
 /* Contacts */
 .address {
   font-style: normal;
@@ -124,14 +129,14 @@ body {
   padding: 188px 0px;
   display: flex;
   align-items: center;
-  justify-content: center;
+
 }
 
 .section-business .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
 }
 
 .title {
@@ -168,9 +173,9 @@ body {
 }
 /* Second section */
 .section-features {
-  /* padding: 120px 156px; */
+
   display: flex;
-  justify-content: center;
+ 
   align-items: center;
 }
 .section-features .list {
@@ -197,7 +202,7 @@ body {
 .section-activity {
   display: flex;
   align-items: center;
-  justify-content: center;
+
 }
 .section-activity .container {
   display: flex;
@@ -226,13 +231,13 @@ body {
   background-color: #f4f4fd;
   display: flex;
   align-items: center;
-  justify-content: center;
+
   gap: 72px;
 }
 .section-team .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   flex-direction: column;
 }
 .section-team .list {
@@ -304,14 +309,14 @@ body {
 .section-portfolio .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   flex-direction: column;
 }
 .section-portfolio {
 }
 .category-filter {
   display: flex;
-  justify-content: center;
+
   gap: 24px;
   padding: 12px 24px 72px 0;
 }
@@ -342,7 +347,7 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   align-items: center;
-  justify-content: center;
+
 }
 .portfolio {
 }
