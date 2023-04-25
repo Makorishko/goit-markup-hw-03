@@ -18,12 +18,27 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+.container {
+  width: 1158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  padding: 120px 0px;
+  display: flex;
+  justify-content: center;
+}
 
 .header {
-  display:flex;
-  justify-content: space-between;
-  padding: 24px 156px;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 24px 156px 24px 156px;
+}
+.header .container {
+  justify-content: space-between;
 }
 
 .link {
@@ -35,7 +50,6 @@ body {
   gap: 40px;
   padding: 0;
   margin: 0;
-
 }
 .section .list {
   background-color: #ffffff;
@@ -105,11 +119,17 @@ body {
 }
 .section-business {
   background-color: var(--navy-blue);
+  padding: 188px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-business .container {
+  display: flex;
   flex-direction: column;
-  padding: 188px 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -120,7 +140,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 0px;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -142,7 +162,7 @@ body {
 }
 /* Second section */
 .section-features {
-  padding: 120px 156px;
+  /* padding: 120px 156px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +170,6 @@ body {
 .section-features .list {
   gap: 24px;
 }
-
 
 .features {
   font-weight: 500;
@@ -165,16 +184,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
   width: 264px;
+  padding-top: 8px;
 }
 /* Third section */
 .section-activity {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  padding: 120px 156px;
 }
-.section-activity .list{
+.section-activity .container {
+  display: flex;
+  flex-direction: column;
+}
+.section-activity .list {
   display: flex;
   gap: 24px;
 }
@@ -187,29 +209,32 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  margin: 0px;
-  
+  margin-bottom: 72px;
 }
-.list-image-item{
+.list-image-item {
   padding-top: 72px;
 }
+/* Fourth section */
 .section-team {
   background-color: #f4f4fd;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  padding: 120px 156px;
   gap: 72px;
 }
-.section-team .list{
-  gap:24px;
+.section-team .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-team .list {
+  gap: 24px;
   background-color: #f4f4fd;
 }
 .list-team-item {
   background-color: #ffffff;
-
-
+  
 }
 .person {
   font-weight: 500;
@@ -220,6 +245,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .specialization {
   font-size: 16px;
@@ -234,16 +260,18 @@ body {
 /* Footer */
 .footer {
   background-color: var(--navy-blue);
-  padding: 100px 1020px 100px 156px;
-  
+  padding: 140px 0 100px 156px;
 }
-
+.footer .container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .text {
   color: var(--cloud);
   font-size: 16px;
   line-height: 1.5;
   width: 264px;
-
 }
 .logo-footer {
   color: var(--cloud);
@@ -252,7 +280,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: flex;
+  
 }
 .logo-studio-footer {
   font-weight: 800;
@@ -262,6 +290,23 @@ body {
 }
 
 /* Portfolio */
+.section-portfolio .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-portfolio{
+  
+}
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px 24px 72px 0;
+  
+}
+
 .btn-filter {
   background-color: var(--cornflower);
   color: var(--iris);
@@ -272,6 +317,8 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   background-color: var(--cloud);
+  border: none;
+  padding: 12px 24px;
 }
 .btn-filter:focus {
   background-color: #404bbf;
@@ -281,9 +328,18 @@ body {
   background-color: #404bbf;
   color: #ffffff;
 }
+.category-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+ 
+}
 .portfolio {
 }
-.portfolio-list {
+.portfolio-list-item:{
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .name {
@@ -292,10 +348,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  display: flex;
+  align-items: flex-start;
 }
 .category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  display: flex;
+  align-items: flex-start;
 }
