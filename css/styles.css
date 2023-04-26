@@ -268,10 +268,7 @@ img {
   padding: 100px 0;
 }
 .footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  
+  display: block;
 }
 .text {
   color: var(--cloud);
@@ -293,10 +290,9 @@ img {
   line-height: 1.17;
   color: var(--cloud);
 }
-.logo {
+.footer .logo {
   display: inline-block;
   margin-bottom: 16px;
-
 }
 /* Portfolio */
 .section-portfolio .container {
@@ -371,7 +367,7 @@ img {
   display: flex;
   align-items: flex-start;
 }
-.portfolio-list-item .container{
+.portfolio-list-item .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
