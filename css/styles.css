@@ -173,6 +173,7 @@ img {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
+  min-width: 169px;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -182,7 +183,8 @@ img {
 }
 /* Second section */
 .section-features {
-  margin: 120px 156px;
+
+  padding: 120px 0;
 }
 .section-features .list {
   gap: 24px;
@@ -207,7 +209,7 @@ img {
 /* Third section */
 .section-activity {
   padding-top: 0;
-  margin: 120px 156px;
+  padding-bottom: 120px;
 }
 
 .section-activity .container {
@@ -233,7 +235,7 @@ img {
 .section-team {
   background-color: #f4f4fd;
   gap: 72px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .section-team .container {
@@ -308,8 +310,9 @@ img {
 .category-filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px;
   gap: 24px;
-  padding: 12px 24px 72px 0;
+ 
 
 }
 
